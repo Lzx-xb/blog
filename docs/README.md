@@ -1,9 +1,11 @@
 ---
 title: 'Home'
+home: true,
 lang: zh-CN
 ---
 
-# Hello 初识 VuePress
+<index/>
+
 
 ::: slot footer
 MIT Licensed | Copyright © 2018-present [Evan You](https://github.com/yyx990803)

@@ -1,9 +1,9 @@
 module.exports = {
-    title: '小学生BLOG',
-    description: 'Just playing around',
+    title: '梅花香自苦寒来',
+    description: '少壮不知勤学苦 老来方悔读书迟',
     base: '/blog/',
     header: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/logo.png' }]
     ],
     themeConfig: {
         logo: '/img/apple-touch-icon-precomposed-152.png',
@@ -25,13 +25,17 @@ module.exports = {
                 '',     /* /foo/ */
                 'hello',  /* /foo/one.html */
             ],
-            '/': [
+            '/blog/': [
                 {
-                    title: '分组1',
-                    children: ['','test']
+                    title: '安装',
+                    children: ['vuepress']
                 },
                 {
-                    title: '分组2',
+                    title: '知识库',
+                    children: ['test2']
+                },
+                {
+                    title: '其他',
                     children: ['test2']
                 }
                 

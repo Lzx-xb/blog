@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Lzx-xb/blog#readme",
   "devDependencies": {
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "vue-router": "^4.1.6"
   }
 }
