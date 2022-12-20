@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="card">
-            <img class="img" src="../.vuepress/public/logo.png" alt="">
+            <img class="img" src="../public/logo.png" alt="">
             <span>标题：文本超出边界处理</span>
             <span>作者：lzx</span>
             <span class="clamp">介绍：lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，</span>
