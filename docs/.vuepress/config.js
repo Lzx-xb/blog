@@ -28,15 +28,19 @@ module.exports = {
             '/pages/': [
                 {
                     title: '安装',
-                    children: ['vuepress']
+                    children: ['vuepress','node',]
                 },
                 {
-                    title: '知识库',
-                    children: ['test2']
+                    title: 'JavaScript',
+                    children: ['js_Class']
+                },
+                {
+                    title: 'CSS',
+                    children: ['css_clamp']
                 },
                 {
                     title: '其他',
-                    children: ['test2']
+                    children: ['']
                 }
                 
             ]

@@ -3,12 +3,12 @@ title: vuepress安装注意事项
 lang: zh-CN
 ---
 
-## 安装
+### 安装
 
 >[安装步骤][1]跟着官方的安装流程时，跳过第一步，不然GitHub Pages自动部署出错。doc文件夹以及package.json都应在repo跟目录。
 >
 
-## 部署
+### 部署
 
 >使用GitHub Pages 加 GitBub Actions自动部署  
 
