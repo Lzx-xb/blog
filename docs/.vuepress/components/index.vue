@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <img class="animate__animated animate__jackInTheBox" style="width: 200px;height:200;" src="/logo.png">
+        <img class="animate__animated animate__jackInTheBox" style="width: 200px;height:200;" src="../public/logo.png">
         <button class="myBtn animate__animated animate__bounceInLeft" @click="goto">
             <span>宝剑锋从磨砺出</span>
         </button>
@@ -17,7 +17,7 @@
         },
         methods: {
             goto(){
-                window.location.href = '/pages/vuepress/'
+                window.location.href = '/blog/pages/vuepress/'
             }
         }
     }
