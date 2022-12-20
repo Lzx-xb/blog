@@ -25,7 +25,7 @@ module.exports = {
                 '',     /* /foo/ */
                 'hello',  /* /foo/one.html */
             ],
-            '/blog/': [
+            '/pages/': [
                 {
                     title: '安装',
                     children: ['vuepress']
