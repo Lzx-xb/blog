@@ -17,7 +17,7 @@
         },
         methods: {
             goto(){
-                window.location.href = '/blog/pages/vuepress/'
+                window.location.href = '/blog/pages/vuepress'
             }
         }
     }
