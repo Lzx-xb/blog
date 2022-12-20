@@ -32,11 +32,11 @@ module.exports = {
                 },
                 {
                     title: 'JavaScript',
-                    children: ['js_Class']
+                    children: ['jsclass']
                 },
                 {
                     title: 'CSS',
-                    children: ['css_clamp']
+                    children: ['cssclamp']
                 },
                 {
                     title: '其他',
