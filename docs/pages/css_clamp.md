@@ -53,7 +53,6 @@ title: 文本超出使用省略符号
 
 
 ```html
-
 <span class="clamp">介绍：lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，lzx的博客，</span>
 
 <style>
