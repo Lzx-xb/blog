@@ -39,6 +39,10 @@ module.exports = {
                     children: ['cssclamp']
                 },
                 {
+                    title: '实用工具',
+                    children: ['watermark']
+                },
+                {
                     title: '其他',
                     children: ['']
                 }

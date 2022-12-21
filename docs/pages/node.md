@@ -2,7 +2,6 @@
 title: node 版本管理
 ---
 
-<swiper/>
 
 ### node 版本管理问题
 nvm use 16.17.0

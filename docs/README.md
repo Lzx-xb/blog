@@ -4,6 +4,7 @@ home: true,
 lang: zh-CN
 ---
 
+<swiper/>
 <index/>
 
 

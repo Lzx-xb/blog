@@ -1,29 +1,29 @@
 <template>
-    <div class="container">
-        <span>{{ content }}</span>
-    </div>
+    
 </template>
-
-<script>
-    import 'animate.css';
-    export default{
-        data() {
-            return {
-                content: 'hello world!',
-            }
-        },
-        methods: {
-            
-        }
-    }
-</script>
-<style > 
-@import '../styles/common.css';
-
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-</style>
+  <script>
+    // Import Swiper Vue.js components
+    import { Swiper, SwiperSlide } from 'swiper/vue';
+  
+    // Import Swiper styles
+    import 'swiper/css';
+  
+    export default {
+      components: {
+        Swiper,
+        SwiperSlide,
+      },
+      setup() {
+        const onSwiper = (swiper) => {
+          console.log(swiper);
+        };
+        const onSlideChange = () => {
+          console.log('slide change');
+        };
+        return {
+          onSwiper,
+          onSlideChange,
+        };
+      },
+    };
+  </script>
