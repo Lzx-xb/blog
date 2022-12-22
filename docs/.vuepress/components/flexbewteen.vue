@@ -21,7 +21,7 @@
 
 <script>
 // import 'animate.css';
- import '../wowjs/animate.css';
+//  import '../wowjs/animate.css';
 //import "wowjs/css/libs/animate.css";
 //  import  WOW  from '../wowjs/WOW.js';
 //import { WOW } from "wowjs";
