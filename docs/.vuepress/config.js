@@ -36,7 +36,7 @@ module.exports = {
                 },
                 {
                     title: 'CSS',
-                    children: ['cssclamp']
+                    children: ['cssclamp','flex_bewteen']
                 },
                 {
                     title: '实用工具',
