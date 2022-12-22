@@ -4,7 +4,8 @@
 export default ({ Vue, options, router, siteData }) => {
    Vue.mixin({
        mounted() {
-        import('./wowjs/WOW.js').then(function (WOW) {
+        import('./wowjs/WOW.js').then((m)=> {
+               const { WOW } = m;
                var wow = new WOW({
                boxClass: 'wow',
                animateClass: 'animated',
