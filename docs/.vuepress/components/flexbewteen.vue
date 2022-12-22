@@ -11,7 +11,7 @@
         <div class="animate__animated animate__bounceInRight animate__delay-1s">
             <span >处理后</span>
         </div>
-        <div class="container" >
+        <div class="main" >
             <div class="card animate__animated animate__zoomIn animate__delay-2s" v-for="item in list">
                 <span>{{ item }}</span>
             </div>
@@ -31,7 +31,7 @@ export default{
 </script>
 
 <style>
-.container1, .container{
+.container1, .main{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
