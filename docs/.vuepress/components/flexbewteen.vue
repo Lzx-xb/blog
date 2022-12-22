@@ -4,16 +4,16 @@
             <span>处理前</span>
         </div>
         <div class="container1">
-            <div class="card wow bounceInRight"  v-for="item in list">
-                <span>{{ item }}</span>
+            <div class="flex-card wow bounceInRight"  v-for="item in list">
+                <span style="padding: 10px;">{{ item }}</span>
             </div>
         </div>
         <div class="wow bounceInDown" style="margin: 10px;" >
             <span>处理后</span>
         </div>
         <div class="main">
-            <div class="card wow bounceInRight"  v-for="item in list">
-                <span>{{ item }}</span>
+            <div class="flex-card wow bounceInRight"  v-for="item in list">
+                <span style="padding: 10px;">{{ item }}</span>
             </div>
         </div>
     </div>
@@ -50,7 +50,8 @@ export default {
     content: '';
 }
 
-.card {
+.flex-card {
+    border-radius: 10px;
     width: 25%;
     height: 150px;
     background-color: #ddffdd;
