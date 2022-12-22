@@ -46,13 +46,13 @@ export default {
 }
 
 .main::after {
-    width: 25%;
+    width: 30%;
     content: '';
 }
 
 .flex-card {
     border-radius: 10px;
-    width: 25%;
+    width: 30%;
     height: 150px;
     background-color: #ddffdd;
     margin-bottom: 20px;
