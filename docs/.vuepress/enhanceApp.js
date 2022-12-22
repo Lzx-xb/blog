@@ -1,5 +1,5 @@
 
-import "wowjs/css/libs/animate.css";
+//import "./wowjs/animate.css";
 import  WOW  from './wowjs/WOW.js';
 export default ({ Vue, options, router, siteData }) => {
    Vue.mixin({
