@@ -46,13 +46,13 @@ export default {
 }
 
 .main::after {
-    width: 30%;
+    width: 25%;
     content: '';
 }
 
 .card {
-    width: 30%;
-    height: 200px;
+    width: 25%;
+    height: 150px;
     background-color: #ddffdd;
     margin-bottom: 20px;
 }
