@@ -28,11 +28,11 @@ module.exports = {
             '/pages/': [
                 {
                     title: '安装',
-                    children: ['vuepress','node',]
+                    children: ['vuepress','node','issume_wow']
                 },
                 {
                     title: 'JavaScript',
-                    children: ['jsclass']
+                    children: ['jsclass','js_map','js_set']
                 },
                 {
                     title: 'CSS',
