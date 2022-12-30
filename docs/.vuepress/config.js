@@ -3,7 +3,7 @@ module.exports = {
     description: '少壮不知勤学苦 老来方悔读书迟',
     base: '/blog/',
     header: [
-        ['link', { rel: 'icon', href: '/logo.png' }]
+        ['link', { rel: 'icon', href: './public/logo.png' }]
     ],
     themeConfig: {
         logo: '/img/apple-touch-icon-precomposed-152.png',
