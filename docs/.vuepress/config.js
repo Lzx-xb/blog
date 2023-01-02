@@ -2,7 +2,7 @@ module.exports = {
     title: '梅花香自苦寒来',
     description: '少壮不知勤学苦 老来方悔读书迟',
     base: '/blog/',
-    header: [
+    head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
     themeConfig: {
