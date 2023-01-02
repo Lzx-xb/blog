@@ -1,5 +1,6 @@
 
 import "./wowjs/animate.css";
+
 export default ({ Vue, options, router, siteData }) => {
    Vue.mixin({
        mounted() {

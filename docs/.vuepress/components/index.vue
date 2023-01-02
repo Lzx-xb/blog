@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="container">
         
         <img class="animate__animated animate__jackInTheBox" style="width: 200px;height:200;" src="../public/logo.png">
@@ -32,4 +32,4 @@
         align-items: center;
         flex-direction: column;
     }
-</style>
+</style> -->
