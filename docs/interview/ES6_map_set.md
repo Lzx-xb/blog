@@ -50,6 +50,8 @@ myMap.get(otherNaN); // "not a number"
 
 ```
 
+:::
+
 ## Set 对象
 
 Set 对象允许你存储任何类型的唯一值，无论是原始值或者是对象引用。
