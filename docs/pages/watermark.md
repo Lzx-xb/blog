@@ -10,6 +10,8 @@ title: 水印
 
 ### 代码
 
+::: details 点击查看代码
+
 ```js
 /**  水印添加方法  */
 const setWatermark = (str1, str2) => {
@@ -64,3 +66,5 @@ const setWatermark = (str1, str2) => {
     }
   }
 ```
+
+:::

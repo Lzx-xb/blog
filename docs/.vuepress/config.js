@@ -8,7 +8,7 @@ module.exports = {
     themeConfig: {
         logo: '/img/apple-touch-icon-precomposed-152.png',
         nav: [
-            { text: 'Foo', link: '/foo/' },
+            { text: '面试基础', link: '/interview/' },
             {
                 text: 'Languages',
                 ariaLabel: 'Language Menu',
@@ -21,9 +21,17 @@ module.exports = {
             { text: 'Guide', link: '/guide/', target:'_blank' }
         ],
         sidebar: {
-            '/foo/': [
+            '/interview/': [
                 '',     /* /foo/ */
-                'hello',  /* /foo/one.html */
+                {
+                    title: 'vue系列',
+                    children: ['vue']
+                },
+                {
+                    title: 'ES6系列',
+                    children: ['ES6', 'ES6_解构', 'ES6_symbol','ES6_map_set']
+                }
+                
             ],
             '/pages/': [
                 {
@@ -44,7 +52,7 @@ module.exports = {
                 },
                 {
                     title: '其他',
-                    children: ['']
+                    children: ['','other_markdown']
                 }
                 
             ]
