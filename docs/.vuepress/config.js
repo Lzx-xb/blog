@@ -29,7 +29,7 @@ module.exports = {
                 },
                 {
                     title: 'ES6系列',
-                    children: ['ES6', 'ES6_解构', 'ES6_symbol','ES6_map_set']
+                    children: ['ES6', 'ES6_jiegou', 'ES6_symbol','ES6_map_set']
                 }
                 
             ],
