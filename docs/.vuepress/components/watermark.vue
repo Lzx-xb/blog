@@ -6,7 +6,6 @@
 
 <script>
     import { removeWatermark, setWaterMark } from '../js/watermark';
-    import 'animate.css';
     export default{
         data() {
             return {

@@ -25,11 +25,15 @@ module.exports = {
                 '',     /* /foo/ */
                 {
                     title: 'vue系列',
-                    children: ['vue']
+                    children: ['vue',"vue_router_params"]
                 },
                 {
                     title: 'ES6系列',
                     children: ['ES6', 'ES6_jiegou', 'ES6_symbol','ES6_map_set']
+                },
+                {
+                    title: 'Html系列',
+                    children: ["html_box"]
                 }
                 
             ],
