@@ -114,6 +114,7 @@ p.then(()=>{
 })
 console.log(4);
 
+// 考点：事件循环机制，宏任务，微任务
 // 1 2 4 3
 ```
 
@@ -128,6 +129,7 @@ a.age = 1;
 b.name = "tom";
 console.log(a, b);
 
+// 引用数据类型 存储于堆内存中
 // {age: 1, name: 'tom'}  {age: 1, name: 'tom'}
 ```
 
@@ -139,6 +141,7 @@ let b = a;
 b = 3
 console.log(a, b);
 
+// 考点 基本数据类型存储在栈内存中
 // 1 3 
 ```
 
