@@ -64,6 +64,7 @@ function debounce(func, wait) {
     }
 }
 ```
+:::
 
 # vue data为什么是一个函数
 
