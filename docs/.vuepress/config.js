@@ -34,6 +34,10 @@ module.exports = {
                 {
                     title: 'Html系列',
                     children: ["html_box"]
+                },
+                {
+                    title: '综合面试',
+                    children: ['interview']
                 }
                 
             ],
